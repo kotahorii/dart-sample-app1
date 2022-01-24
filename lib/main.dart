@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Async.dart';
 
 void main() {
   runApp(const MyApp());
@@ -59,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
+    Async().asynctest1();
   }
 
   @override
